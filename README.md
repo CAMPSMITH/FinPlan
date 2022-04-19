@@ -16,14 +16,6 @@ FinPlan is a financial planning tool for emergencies and for retirement. This fi
 
 ---
 
-## Installation Guide
-
-TBD ...
-
----
-
-## Usage
-
 ## Usage
 
 ### Prerequisites
@@ -47,7 +39,6 @@ Once Jupyter Lab has started in your browser, select the **crypto_arbitrage.ipyn
 *  **Martin Smith** <span>&nbsp;&nbsp;</span> |
 <span>&nbsp;&nbsp;</span> *email:* msmith92663@gmail.com <span>&nbsp;&nbsp;</span>|
 <span>&nbsp;&nbsp;</span> [<img src="images/LI-In-Bug.png" alt="in" width="20"/>](https://www.linkedin.com/in/smithmartinp/)
-
 
 ---
 
