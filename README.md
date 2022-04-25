@@ -16,7 +16,7 @@ FinPlan is a financial planning tool for emergencies and for retirement. This fi
 * **Requests** - A python library used to interact with APIs.
 * **JSON** - A python library that facilitates working with data in JSON format.
 * **python-dotenv** - A python library used to configure an environment through key-value pairs stored in a file.
-* **Quandl** - 
+* **MCForecastTools** - A python library that used to run Monte Carlo simulations.
 
 ---
 
@@ -31,13 +31,20 @@ The following are required to use this analytical notebook
 For instructions on how to install these and how to run Jupyter Lab, please refer to *Installation Guide* found at [Cryptage](https://github.com/CAMPSMITH/cryptage.git)
 
 ### Environment variables Needed 
-...
+This notebook uses the Alpaca API to obtain stock pricing information.  To use this API, credentials must be configured. It is recommended that the **dotenv** library be used and that these credentials be stored in a **.env** file.  
 
-### Running the Cryptage Notebook
+* Create a file called **.env** in the same folder as the notebook.
+* Provide the following in this file as key value pairs:
+```
+ALPACA_API_KEY = "<YOUR ALPACA API KEY>"
+ALPACA_SECRET_KEY = "<YOUR ALPACA API KEY SECRET>"
+```
+   
+### Running the FinPlan Notebook
 
-Once Jupyter Lab has started in your browser, select the **crypto_arbitrage.ipynb** notebook from the **Left Sidebar**.
+Once Jupyter Lab has started in your browser, select the **financial_planning_tools.ipynb** notebook from the **Left Sidebar**.
 
-![launch Notebook risk_return_analysis.ipynb](images/start_notebook.png)
+![launch Notebook financial_planning_tools.ipynb](images/Finplan Notebook.png)
 
 ---
 
