@@ -44,7 +44,7 @@ ALPACA_SECRET_KEY = "<YOUR ALPACA API KEY SECRET>"
 
 Once Jupyter Lab has started in your browser, select the **financial_planning_tools.ipynb** notebook from the **Left Sidebar**.
 
-![launch Notebook financial_planning_tools.ipynb](images/Finplan Notebook.png)
+![launch Notebook financial_planning_tools.ipynb](images/finplan_notebook.png)
 
 ---
 
